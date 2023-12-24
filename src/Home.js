@@ -345,6 +345,21 @@ const Home = () => {
 
 
         </Box>
+                {/* Footer Section */}
+                <Box
+          textAlign="center"
+          minHeight="10vh"
+          backgroundColor="#35424a"
+          color="white"
+          padding="20px"
+        >
+          <Text fontSize="sm">
+            &copy; {new Date().getFullYear()} Ayhabibi Inc. All Rights Reserved.
+          </Text>
+          <Text fontSize="sm" mt="2">
+            Made by: Ayman El-sayed
+          </Text>
+        </Box>
       </animated.div>
     </ChakraProvider>
   );
